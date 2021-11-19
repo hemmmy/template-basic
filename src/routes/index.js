@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from './Home'
-import Components from './components'
+import Components from './Components'
 
 export default createRouter({
     // mode: 'Hash'
