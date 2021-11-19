@@ -20,7 +20,7 @@ module.exports = {
     output: {
         // path: path.resolve(__dirname, 'dist'),
         // filename: 'main.js',
-        clean: true
+        clean: true // 재빌드 시, 필요없는 파일들 제거
     },
 
     module: {
@@ -32,7 +32,6 @@ module.exports = {
             {
                 test: /\.s?css$/,
                 use: [
-                    'vue-style-loader',
                     'style-loader',
                     'css-loader',
                     'postcss-loader',
